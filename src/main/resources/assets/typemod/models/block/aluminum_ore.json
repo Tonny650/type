@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "typemod:block/aluminum_ore"
+  }
+}

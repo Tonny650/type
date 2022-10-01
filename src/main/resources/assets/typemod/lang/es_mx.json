@@ -1,6 +1,9 @@
 {
+  "itemGroup.typetab": "Type Materials",
   "item.typemod.raw_aluminum": "Aluminio crudo",
   "item.typemod.aluminum": "Aluminio",
   "item.typemod.plastic": "Plastico",
-  "itemGroup.typetab": "Type Materials"
+  "item.typemod.aluminum_block": "Bloque de Aluminio",
+  "item.typemod.aluminum_ore": "Mena de Aluminio",
+  "item.typemod.deepslate_aluminum_ore": "Mena de Aluminio en Pizarra Profunda"
 }

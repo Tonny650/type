@@ -1,6 +1,11 @@
 {
+  "itemGroup.typetab": "Type Materials",
   "item.typemod.raw_aluminum": "Raw Aluminum",
   "item.typemod.aluminum": "Aluminum",
   "item.typemod.plastic": "Plastic",
-  "itemGroup.typetab": "Type Materials"
+  "item.typemod.aluminum_block": "Block of Aluminum",
+  "item.typemod.aluminum_ore": "Aluminum Ore",
+  "item.typemod.deepslate_aluminum_ore": "Deepslate Aluminum Ore"
+
+
 }

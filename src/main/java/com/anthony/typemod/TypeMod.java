@@ -1,5 +1,6 @@
 package com.anthony.typemod;
 
+import com.anthony.typemod.block.ModBlock;
 import com.anthony.typemod.items.ModItems;
 import com.mojang.logging.LogUtils;
 import net.minecraftforge.common.MinecraftForge;
@@ -23,6 +24,7 @@ public class TypeMod
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         ModItems.register(modEventBus);
+        ModBlock.register(modEventBus);
 
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
