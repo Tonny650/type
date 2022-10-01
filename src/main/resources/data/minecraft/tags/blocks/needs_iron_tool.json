@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "typemod:aluminum_ore",
+    "typemod:aluminum_block_solid",
+    "typemod:deepslate_aluminum_ore"
+  ]
+}

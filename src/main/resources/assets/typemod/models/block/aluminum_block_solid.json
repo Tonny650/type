@@ -1,6 +1,6 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "typemod:block/aluminum_block"
+    "all": "typemod:block/aluminum_block_solid"
   }
 }

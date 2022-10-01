@@ -3,9 +3,9 @@
   "item.typemod.raw_aluminum": "Raw Aluminum",
   "item.typemod.aluminum": "Aluminum",
   "item.typemod.plastic": "Plastic",
-  "item.typemod.aluminum_block": "Block of Aluminum",
-  "item.typemod.aluminum_ore": "Aluminum Ore",
-  "item.typemod.deepslate_aluminum_ore": "Deepslate Aluminum Ore"
+  "block.typemod.aluminum_block_solid": "Block of Aluminum",
+  "block.typemod.aluminum_ore": "Aluminum Ore",
+  "block.typemod.deepslate_aluminum_ore": "Deepslate Aluminum Ore"
 
 
 }

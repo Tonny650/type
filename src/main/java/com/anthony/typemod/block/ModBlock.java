@@ -22,17 +22,19 @@ public class ModBlock {
     public static final DeferredRegister<Block> BLOCKS =
             DeferredRegister.create(ForgeRegistries.BLOCKS, TypeMod.MOD_ID);
 
-    public static final RegistryObject<Block> ALUMINUM_BLOCK = registerBlock("aluminum_block",
+    public static final RegistryObject<Block> ALUMINUM_BLOCK_SOLID = registerBlock("aluminum_block_solid",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(6f).requiresCorrectToolForDrops()), ModCreativeModelTab.TYPE_TAB);
+
     public static final RegistryObject<Block> ALUMINUM_ORE = registerBlock("aluminum_ore",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(6f).requiresCorrectToolForDrops(),
                     UniformInt.of(3,7)), ModCreativeModelTab.TYPE_TAB);
+
     public static final RegistryObject<Block> DEEPSLATE_ALUMINUM_ORE = registerBlock("deepslate_aluminum_ore",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(6f).requiresCorrectToolForDrops(),
-                    UniformInt.of(3,7)), ModCreativeModelTab.TYPE_TAB);
+                    UniformInt.of(4,8)), ModCreativeModelTab.TYPE_TAB);
 
 
 

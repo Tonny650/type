@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:blasting",
+  "cookingtime": 80,
+  "experience": 0.7,
+  "group": "aluminum",
+  "ingredient": {
+    "item": "typemod:raw_aluminum"
+  },
+  "result": "typemod:aluminum"
+}
