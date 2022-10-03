@@ -3,6 +3,8 @@ package com.anthony.typemod;
 import com.anthony.typemod.block.ModBlock;
 import com.anthony.typemod.items.ModItems;
 import com.mojang.logging.LogUtils;
+import net.minecraft.client.renderer.ItemBlockRenderTypes;
+import net.minecraft.client.renderer.RenderType;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -43,7 +45,8 @@ public class TypeMod
     public static class ClientModEvents {
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event) {
-
+            ItemBlockRenderTypes.setRenderLayer(ModBlock.WEED_CROP.get(),
+                    RenderType.cutout());
         }
     }
 }

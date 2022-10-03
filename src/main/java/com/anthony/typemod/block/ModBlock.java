@@ -1,6 +1,7 @@
 package com.anthony.typemod.block;
 
 import com.anthony.typemod.TypeMod;
+import com.anthony.typemod.block.custom.WeedCropBlock;
 import com.anthony.typemod.items.ModCreativeModelTab;
 import com.anthony.typemod.items.ModItems;
 import net.minecraft.util.valueproviders.UniformInt;
@@ -8,6 +9,7 @@ import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.DropExperienceBlock;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.material.Material;
@@ -35,6 +37,9 @@ public class ModBlock {
             () -> new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(6f).requiresCorrectToolForDrops(),
                     UniformInt.of(4,8)), ModCreativeModelTab.TYPE_TAB);
+
+    public static final RegistryObject<Block> WEED_CROP = BLOCKS.register("weed_crop",
+            () -> new WeedCropBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT)));
 
 
 

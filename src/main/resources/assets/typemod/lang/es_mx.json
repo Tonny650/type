@@ -3,7 +3,10 @@
   "item.typemod.raw_aluminum": "Aluminio crudo",
   "item.typemod.aluminum": "Aluminio",
   "item.typemod.plastic": "Plastico",
+  "item.typemod.weed_seeds": "Semillas de Marihuana",
+  "item.typemod.cannabis_bud": "Cogollo de Mota",
   "block.typemod.aluminum_block_solid": "Bloque de Aluminio",
   "block.typemod.aluminum_ore": "Mena de Aluminio",
-  "block.typemod.deepslate_aluminum_ore": "Mena de Aluminio en Pizarra Profunda"
+  "block.typemod.deepslate_aluminum_ore": "Mena de Aluminio en Pizarra Profunda",
+  "block.typemod.deepslate_weed_crop": "Cultivo de Mota"
 }

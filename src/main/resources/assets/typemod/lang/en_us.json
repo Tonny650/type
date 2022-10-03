@@ -3,9 +3,12 @@
   "item.typemod.raw_aluminum": "Raw Aluminum",
   "item.typemod.aluminum": "Aluminum",
   "item.typemod.plastic": "Plastic",
+  "item.typemod.weed_seeds": "Weed Seeds",
+  "item.typemod.cannabis_bud": "Cannabis Bud",
   "block.typemod.aluminum_block_solid": "Block of Aluminum",
   "block.typemod.aluminum_ore": "Aluminum Ore",
-  "block.typemod.deepslate_aluminum_ore": "Deepslate Aluminum Ore"
+  "block.typemod.deepslate_aluminum_ore": "Deepslate Aluminum Ore",
+  "block.typemod.deepslate_weed_crop": "Weed Crop"
 
 
 }
